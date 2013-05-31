@@ -1,0 +1,4 @@
+c:\users\esteban\documents\visual studio 2010\Projects\ClientesInacap\ClientesInacap\bin\ClientesInacap.dll
+c:\users\esteban\documents\visual studio 2010\Projects\ClientesInacap\ClientesInacap\bin\ClientesInacap.pdb
+c:\users\esteban\documents\visual studio 2010\Projects\ClientesInacap\ClientesInacap\obj\Debug\ClientesInacap.dll
+c:\users\esteban\documents\visual studio 2010\Projects\ClientesInacap\ClientesInacap\obj\Debug\ClientesInacap.pdb
