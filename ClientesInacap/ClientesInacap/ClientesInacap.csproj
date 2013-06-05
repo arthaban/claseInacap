@@ -51,6 +51,10 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="administradorUsuarios\ProfileView.aspx" />
+    <Content Include="administradorUsuarios\ProfileAdd.aspx" />
+    <Content Include="administradorUsuarios\UserAdd.aspx" />
+    <Content Include="administradorUsuarios\UserView.aspx" />
     <Content Include="css\bootstrap-responsive.css" />
     <Content Include="css\bootstrap-responsive.min.css" />
     <Content Include="css\bootstrap.css" />
@@ -71,6 +75,35 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="administradorUsuarios\AdministradorUsuario.cs" />
+    <Compile Include="administradorUsuarios\ProfileView.aspx.cs">
+      <DependentUpon>ProfileView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="administradorUsuarios\ProfileView.aspx.designer.cs">
+      <DependentUpon>ProfileView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="administradorUsuarios\ProfileAdd.aspx.cs">
+      <DependentUpon>ProfileAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="administradorUsuarios\ProfileAdd.aspx.designer.cs">
+      <DependentUpon>ProfileAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="administradorUsuarios\UserAdd.aspx.cs">
+      <DependentUpon>UserAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="administradorUsuarios\UserAdd.aspx.designer.cs">
+      <DependentUpon>UserAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="administradorUsuarios\UserView.aspx.cs">
+      <DependentUpon>UserView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="administradorUsuarios\UserView.aspx.designer.cs">
+      <DependentUpon>UserView.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
